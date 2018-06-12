@@ -1,20 +1,8 @@
 import React, {Component} from 'react';
-import styled from 'styled-components';
 import Typist from 'react-typist';
 import Albums from './Albums';
 import '../App.css';
-
-const Screen = styled.div`
-    height: 480px;
-    width: 640px;
-    border: 3px solid white;
-    border-radius: 5px;
-    margin: 25px auto;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: left;
-    overflow: auto;
-`;
+import { Screen } from '../styles/style'
 
 class Container extends Component {
     state = {
@@ -174,7 +162,7 @@ class Container extends Component {
                             <div>LOGIN..........</div>
                             <div>USER: DOROTHY</div>
                             <div>PASS: *************</div>
-                            <div>///////////////////////////////////////////////</div>
+                            <div>######################################################</div>
                         </div>
                     </Typist>
                 </div>
