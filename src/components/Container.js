@@ -5,6 +5,7 @@ import '../App.css';
 import { Screen } from '../styles/style'
 
 class Container extends Component {
+    // Had to write all the albums out by hand because I don't have access to his discog db
     state = {
         albums: [
             {
